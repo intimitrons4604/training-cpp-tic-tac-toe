@@ -164,7 +164,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Board.cpp" />
     <ClCompile Include="TicTacToe.cpp" />
     <ClCompile Include="TextUI.cpp" />
   </ItemGroup>
