@@ -46,7 +46,7 @@ void printBoard(std::array<std::array<Mark, 3>, 3> board)
 
 Position getMove(std::string playerName, Mark mark)
 {
-    auto markChar = charForMark(mark);
+    char markChar = charForMark(mark);
 
     int row = -1;
     do
