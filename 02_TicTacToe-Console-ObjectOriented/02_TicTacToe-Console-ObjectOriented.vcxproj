@@ -20,11 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{30AB975B-474E-4ED3-8822-6144C9CF04EE}</ProjectGuid>
+    <ProjectGuid>{33AD1229-AA9E-42A1-9A2A-98A54C108C77}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TicTacToe</RootNamespace>
+    <RootNamespace>02_TicTacToe-Console-ObjectOriented</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>TicTacToe</ProjectName>
+    <ProjectName>02_TicTacToe-Console-ObjectOriented</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -164,12 +164,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="TicTacToe.cpp" />
-    <ClCompile Include="TextUI.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="TextUI.h" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
