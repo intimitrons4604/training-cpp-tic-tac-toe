@@ -2,5 +2,5 @@
 
 int main()
 {
-	std::cout << "02_TicTacToe-Console-ObjectOriented";
+    std::cout << "02_TicTacToe-Console-ObjectOriented";
 }
