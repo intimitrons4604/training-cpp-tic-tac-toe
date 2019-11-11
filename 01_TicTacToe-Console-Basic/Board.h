@@ -20,6 +20,14 @@ struct Position {
 	int column;
 };
 
-// TODO Start of student code
+/*
+ * TODO: Declare a funtion named "isFull" which returns true/false and requires the tic-tac-toe board as an argument.
+ *
+ * This function shall return true if the board is full and false otherwise.
+ */
 
-// TODO End of student code
+/*
+ * TODO: Declare a funtion named "hasWon" which returns true/false and requires the tic-tac-toe board and a Mark as arguments.
+ *
+ * This function shall return true if the mark has won the game and false otherwise.
+*/

@@ -12,7 +12,13 @@ int main()
 		}
 	}
 
-	// TODO Start of student code
+	// TODO Ask each player for their name
 
-	// TODO End of student code
+	// TODO As long as the board isn't full (i.e. a tie) and neither player has won
+	// - Display the board
+	// - Ask the player for their move
+	// - Add the player's mark to the board
+	// - Switch turns to the next player (Note: X always goes first)
+
+	// TODO Print out a message with which player won and their name, or print out a message that the game is a tie if the board is full
 }
