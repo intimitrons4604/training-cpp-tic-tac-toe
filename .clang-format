@@ -34,12 +34,10 @@ DerivePointerAlignment: 'true'
 FixNamespaceComments: 'true'
 IncludeBlocks: Regroup
 IncludeCategories:
-  - Regex: '^<(FRC_FPGA_ChipObject|FRC_NetworkCommunication|cameraserver|frc|frc2|hal|mockdata|networktables|simulation|tables|units|visa|vision|wpi)\/'
-    Priority: 2
   - Regex: '^<.*'
     Priority: 1
   - Regex: '^".*'
-    Priority: 3
+    Priority: 2
 IndentCaseLabels: 'true'
 IndentPPDirectives: AfterHash
 IndentWidth: '2'
