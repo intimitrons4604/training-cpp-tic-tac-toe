@@ -1,6 +1,12 @@
-/.vs
 
-/x64
-/x86
-**/Debug
-**/Release
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Gradle cache
+.gradle
+# Gradle build output
+build
