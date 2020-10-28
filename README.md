@@ -37,12 +37,10 @@ Create a `Game` class that
 - Place the player's mark on the board in the requested location
 
 ### 5. Play by the rules
-- Make sure players are unable to place their mark in cells that are already marked
-- Add a function to the `Board` class that returns `true` if all cells on the board have been marked by players, and `false` otherwise
 - End the game when the board is full
+- Make sure players are unable to place their mark in cells that are already marked
 
 ### 6. Announce the winner
-- Add a function to the `Board` class that returns the winning mark
 - End the game when the board is full or a player has won, whichever occurs first
 - Tell the players who won, or if the game was a draw
 
